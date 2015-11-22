@@ -1,12 +1,47 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700);
 
-h1 {
-    font-family: "Lora", san-serif;
-    font-size: 4em;
-    color: #1c86ee;
-    text-align: center;
+body {
+    font-family: "Lora", Helvetica, san-serif;
+    background-color: #E9EAEE;
 }
 
-p{
-    margin: 0;
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: #fff;
+}
+
+header {
+    background-image: url(../img/wood.jpg);
+    background-size: cover;
+    backgroud-repeat: no-repeat;
+    height:200px;
+    padding-top: 20px;
+
+}
+
+p {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+label {
+    font-size: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: #D87E28;
+    background-color: #afb3c2;
+    font-size: 12px;
+    padding-top: 1em;
+}
+
+button {
+    margin: 10px;
+    float: right;
 }
