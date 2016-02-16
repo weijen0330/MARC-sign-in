@@ -1,45 +1,83 @@
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(https://fonts.googleapis.com/css?family=Crete+Round:400,400italic);
 
 body {
-    font-family: "Lora", san-serif;
-    background-color: #E9EAEE;
-}
-
-header {
-    background-image: url(../img/wood.jpg);
+    font-family: 'Crete Round', serif;
+    background: url("../img/Mercer.jpg") fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
-    padding-top: 20px;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 h1 {
-    font-size: 100px;
+    display: none;
+    margin-top: 20%;
+    font-size: 50px;
     color: #fff;
     text-align: center;
+    text-decoration: underline;
 }
 
-p {
+#question {
+    margin-top: 15%;
+    display: none;
+    color: #fff;
+    text-align: center;
     font-size: 30px;
 }
 
-label {
-    font-size: 20px;
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #fff;
+}
+
+ol {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 30px;
+    margin-left: 20%;
+    list-style-position: inside;
+}
+
+
+li {
+    font-size: 16px;
+    color: #fff;
+}
+input {
+    margin-bottom: 1em;
+    margin-left: 40%;
+    font-size: 25px;
+    border: 0;
+    color: #fff;
+    background: transparent;
+    display: none;
+    border-radius: 5px;
+    border-bottom:solid 1px #fff;
+    outline: none;
 }
 
 button {
-    margin: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    border: 0;
+    background-color: #fff;
     float: right;
+    border-radius: 5px;
+    display: none;
 }
 
 footer {
     position: absolute;
     bottom: 0;
+    right: 0;
+    left: 0;
     width: 100%;
     border-top-style: solid;
     border-top-width: 3px;
     border-top-color: #D87E28;
     background-color: #afb3c2;
     font-size: 12px;
+    padding-left: 1em;
     padding-top: 1em;
 }
