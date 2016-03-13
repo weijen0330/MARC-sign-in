@@ -2,7 +2,8 @@
 
 body {
     font-family: 'Crete Round', serif;
-    background: url("../img/Mercer.jpg") fixed;
+    background: url("../img/Mercer.jpg") fixed; 
+    opacity: 1.0;
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 100%;
@@ -26,7 +27,7 @@ h1 {
     font-size: 30px;
 }
 
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+::-webkit-input-placeholder {
     color: #fff;
 }
 
@@ -81,3 +82,4 @@ footer {
     padding-left: 1em;
     padding-top: 1em;
 }
+

@@ -1,0 +1,19 @@
+{
+  "name": "marc",
+  "version": "1.0.0",
+  "description": "marc sign in",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weijen0330/MARC-sign-in.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weijen0330/MARC-sign-in/issues"
+  },
+  "homepage": "https://github.com/weijen0330/MARC-sign-in#readme"
+}
